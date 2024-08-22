@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'diadactGothic';
+    src: url('assets/fonts/didactGothic/DidactGothic-Regular.ttf')
+}
+
+@font-face {
+    font-family: 'nunitoSans';
+    src: url('assets/fonts/nunitoSans/NunitoSans_10pt-Black.ttf');
+}
+
+body {
+    background-image: url("assets/images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'nunitoSans';
+}
