@@ -1,0 +1,11 @@
+#rightCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 5px;
+}
+
+#allContactsText {
+    font-size: 35px;
+}

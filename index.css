@@ -1,3 +1,15 @@
+:root {
+    --white: #FFFFFF;
+    --lightGrey: #ECECEC;
+    --grey: #D9D9D9;
+    --offWhite: #DDEBEE;
+    --lightestBlue: #C7DFE3;
+    --lightBlue: #8FBEC6;
+    --blue: #1F7A8C;
+    --darkBlue: #022B3A;
+    --red: #EA526F;
+}
+
 @font-face {
     font-family: 'diadactGothic';
     src: url('assets/fonts/didactGothic/DidactGothic-Regular.ttf')
@@ -8,13 +20,57 @@
     src: url('assets/fonts/nunitoSans/NunitoSans_10pt-Black.ttf');
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url("assets/images/background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-    margin: 0;
-    padding: 0;
+    font-family: 'diadactGothic';
+}
+
+h1,
+h2,
+h3 {
     font-family: 'nunitoSans';
+    color: var(--darkBlue);
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 7.5vw;
+    padding-top: 2vh;
+    padding-right: 7.5vw;
+    padding-left: 7.5vw;
+    padding-bottom: 6vh;
+    gap: 2vh;
+}
+
+#header {
+    height: 70px;
+}
+
+#contactCons {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    justify-content: center;
+    height: calc(90vh - 80px);
+}
+
+#contactCons>div {
+    background-color: var(--white);
+    border: 5px solid var(--lightGrey);
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
 }

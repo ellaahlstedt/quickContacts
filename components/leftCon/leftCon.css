@@ -1,0 +1,13 @@
+#leftCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#defaultText {
+    text-align: center;
+    font-size: 30px;
+    padding: 0 5%;
+    margin: 0;
+}
